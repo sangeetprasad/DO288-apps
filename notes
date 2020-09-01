@@ -1,0 +1,11 @@
+22  wget https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-client-linux.tar.gz
+   23  ls
+   24  tar xvf openshift-client-linux.tar.gz 
+   25  cp {oc,kubectl} /usr/local/bin
+   26  sudo cp {oc,kubectl} /usr/local/bin
+
+oc completion bash >> /etc/bash_completion.d/oc_completion
+
+ git config credential.helper store
+
+ba486dc1c0ac973bb8256d679d3b251e
